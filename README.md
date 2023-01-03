@@ -21,8 +21,9 @@ $ docker-compose up--build
 ## Serve
 
 ```bash
-URL: http://localhost:4200/compra ( Página inicial)
-URL: http://localhost/mkt/leads ( para visualizar processo de envio)
+URL: http://localhost:4200/compra (Página inicial)
+URL: http://localhost/mkt/leads (para visualizar processo de envio)
+URL: http://localhost:4200/login (login user)
 ```
 
 ### Pojeto desenvolvido no curso do alura

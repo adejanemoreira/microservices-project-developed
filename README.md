@@ -9,37 +9,21 @@ Para que seu e-mail e senha funcionem, você deve OU desativar autenticação em
 
 ## Description
 
-Para clonar repositório e iniciar os submodulos $ git clone --recursive https://github.com/adejanemoreira/microservices-project-developed ou
+Para clonar repositório e iniciar os submodulos 
+```bash
+$ git clone --recursive https://github.com/adejanemoreira/microservices-project-developed ou
 $ git clone --recurse --submodules --remote --submodules https://github.com/adejanemoreira/microservices-project-developed
 
-## Installation
+$ cd microservices-project-developed
+$ docker-compose up--build
+
+```
+## Serve
 
 ```bash
-$ npm install
+URL: http://localhost:4200/compra
 ```
 
-## Running the app
+## Pojeto desenvolvido no curso do alura
 
-```bash
-# development
-$ npm run start
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```

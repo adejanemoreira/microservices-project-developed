@@ -9,7 +9,8 @@ Para que seu e-mail e senha funcionem, você deve OU desativar autenticação em
 
 ## Description
 
-Para clonar repositório e iniciar os submodulos $ git clone --recursive https://github.com/adejanemoreira/microservices-project-developed
+Para clonar repositório e iniciar os submodulos $ git clone --recursive https://github.com/adejanemoreira/microservices-project-developed ou
+$ git clone --recurse --submodules --remote --submodules https://github.com/adejanemoreira/microservices-project-developed
 
 ## Installation
 
